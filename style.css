@@ -1,0 +1,69 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+  background-color: var(--lightGray);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+h1,
+p,
+a {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--darkBlue);
+  width: 90%;
+  margin-top: 1.5em;
+}
+p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grayishBlue);
+}
+.super-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container p {
+  margin-top: 0;
+  width: 90%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  padding: 10px;
+  border-radius: 16px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0 0 20px -10px var(--grayishBlue);
+}
+.container img {
+  width: 98%;
+  margin-top: 1%;
+  border-radius: 9px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--darkBlue);
+  text-decoration: none;
+  transition: text-decoration 250ms;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
