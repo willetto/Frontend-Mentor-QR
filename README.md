@@ -56,7 +56,7 @@ I also wanted to center both the QR component and the attribution both verticall
 
 ### Continued development
 
-I want to fiind a neater, cleaner solution to centering componets onto a page. I also had to guess at the border-radius values. I want to figure out either the math or a better method for matching those curves.
+I want to find a neater, cleaner solution to centering componets onto a page. I also had to guess at the border-radius values. I want to figure out either the math or a better method for matching those curves.
 
 ## Author
 
